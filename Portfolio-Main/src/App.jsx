@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import './App.css';
+import ContactList from '/src/components/ContactList';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -48,44 +50,9 @@ function App() {
             My name is Sean Ye. I have five years of experience as an Electrical/Control Project Engineer, specializing in process improvement and automation projects in an industrial manufacturing environment. Seeking a challenging position with a company to utilize my experience and knowledge, with opportunities for career growth and advancement. Strengths include Project Management, Electrical Power Systems design, Control Systems design and analysis, and various programming skills. Currently working on my PMP Certification. Bilingual in Chinese and English.
           </p>
         </section>
-        <section id="Work_Section">
-          <article className="Work_Images">
-            <a href="https://github.com/Seanye333/Prework-study-guide.git" target="_blank">
-              <h1 className="images_title2">Bowtie Cat</h1>
-              <img className="Mid" src="./assets/Images/Bowtie-Cat.JPG" alt="an overview of bowtie cat webpage with 4 boxes including two sentences of description for HTML, CSS, Git, and JavaScript" />
-              <h2 className="code_types2">CSS/HTML</h2>
-            </a>
-          </article>
-          <article className="Work_Images">
-            <a href="https://github.com/Seanye333/Snippet_Cheatsheet.git" target="_blank">
-              <h1 className="images_title2">Snippet Cheatsheet</h1>
-              <img className="Mid" src="./assets/Images/Snippet Cheatsheet.JPG" alt="An overview of snippet cheatsheet with purple boxes and description on each box" />
-              <h2 className="code_types2">CSS/HTML</h2>
-            </a>
-          </article>
-          <article className="Work_Images">
-            <a href="https://github.com/Seanye333/Simple_Camera_Product_Page.git" target="_blank">
-              <h1 className="images_title2">Camera Product</h1>
-              <img className="Mid" src="./assets/Images/Camera_Product_Page.JPG" alt="A camera page with camera product in the middle and description of product and price to its left" />
-              <h2 className="code_types2">CSS/HTML</h2>
-            </a>
-          </article>
-          <article className="Work_Images">
-            <a href="https://github.com/Seanye333/CSS_Blog_Web.git" target="_blank">
-              <h1 className="images_title2">CSS Blog Web</h1>
-              <img className="Mid" src="./assets/Images/CSS_Blog_Web.JPG" alt="An overview of CSS blog webpage talking about building responsive layout" />
-              <h2 className="code_types2">CSS/HTML</h2>
-            </a>
-          </article>
-        </section>
-        <aside id="Contact_Me">Contact</aside>
-        <section id="Contact_Me_Section">
-          <a href="tel:+1-347-993-7692">☎️ Phone</a>
-          <a href="mailto:seanye86@gmail.com">📧 E-mail</a>
-          <a href="https://github.com/Seanye333">📀 GitHub</a>
-          <a href="https://www.linkedin.com/in/yuxiang-ye/">📋 Linkedin</a>
-          <a href="https://www.instagram.com/arrrsean/?igshid=MmIzYWVlNDQ5Yg%3D%3D">📷 Instagram</a>
-        </section>
+        <div>
+         <ContactList />
+        </div>
       </main>
       <footer>
         <p>👉 Thank you for visiting my resume web page! Please feel free to reach out to me! 👈</p>
