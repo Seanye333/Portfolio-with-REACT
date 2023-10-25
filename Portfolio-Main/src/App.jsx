@@ -9,7 +9,7 @@ function App() {
         <h1>Yuxiang (Sean) Ye</h1>
         <nav>
           <h2><Link to="/">About Me</Link></h2>
-          <h2><Link to="/project">Projects</Link></h2>
+          <h2><Link to="/project">Portfolio</Link></h2>
           <h2><Link to="/contact">Contact Me</Link></h2>
           <h3>
             <button onClick={() => window.location.href = '/src/assets/WordDoc/YuxiangYe-Resume.docx'}>
