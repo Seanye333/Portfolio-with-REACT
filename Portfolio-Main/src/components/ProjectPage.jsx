@@ -3,7 +3,7 @@ import '../components/work.css';
 import animefusion from '/src/assets/Images/animefusion.jpg';
 import tastefultwosome from '/src/assets/Images/tastfultwosomes.png';
 
-function ProjectList() {
+export default function ProjectPage() {
 return (
 <section id="Work_Section">
 <article className="Work_Images">
@@ -38,5 +38,5 @@ return (
 )
 }
 
-export default ProjectList;
+// export default ProjectPage;
 

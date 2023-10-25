@@ -1,7 +1,7 @@
 import React from "react";
 import '../components/Contact.css';
 
-function ContactList() {
+function ContactPage() {
   return (
     <div>
       <aside id="Contact_Me">Contact</aside>
@@ -16,4 +16,4 @@ function ContactList() {
   );
 }
 
-export default ContactList;
+export default ContactPage;
